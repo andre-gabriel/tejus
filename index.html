@@ -1,82 +1,114 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Tejus by andre-gabriel</title>
+<html lang="en">
+<head>
+  <style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700"><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}</style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Tejus - Eventos & Turismo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tejus - Eventos & Turismo">
+  <meta name="author" content="André Gabriel">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Tejus</h1>
-        <p>Tejus Website</p>
+  <!-- CSS -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic,700,700italic">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/form-elements.css">
+  <link rel="stylesheet" href="assets/ultimate-flat-social-icons/ultm-css/ultm-general.css">
+  <link rel="stylesheet" href="assets/ultimate-flat-social-icons/ultm-css/ultm-sizes.css">
+  <link rel="stylesheet" href="assets/ultimate-flat-social-icons/ultm-css/ultm-shapes.css">
+  <link rel="stylesheet" href="assets/ultimate-flat-social-icons/ultm-css/ultm-bg-colors.css">
+  <link rel="stylesheet" href="assets/ultimate-flat-social-icons/ultm-css/ultm-bg-images-48.css">
+  <link rel="stylesheet" href="assets/ultimate-flat-social-icons/ultm-css/ultm-effects.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/media-queries.css">
 
-        <p class="view"><a href="https://github.com/andre-gabriel/tejus">View the Project on GitHub <small>andre-gabriel/tejus</small></a></p>
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
+  <!-- Favicon and touch icons -->
+  <!--
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  -->
+  <!--
+  <script type="text/javascript" charset="UTF-8" src="http://maps.gstatic.com/cat_js/maps-api-v3/api/js/17/13/%7Bcommon,map,util,marker%7D.js" style=""></script><script type="text/javascript" charset="UTF-8" src="http://maps.gstatic.com/cat_js/maps-api-v3/api/js/17/13/%7Bonion%7D.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.gstatic.com/cat_js/maps-api-v3/api/js/17/13/%7Bcontrols,stats%7D.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.googleapis.com/maps/api/js/ViewportInfoService.GetViewportInfo?1m6&amp;1m2&amp;1d45.05818101442309&amp;2d7.662245840537139&amp;2m2&amp;1d45.07791266594798&amp;2d7.711893221793389&amp;2u15&amp;4sen-US&amp;5e0&amp;6sm%40271000000&amp;7b0&amp;8e0&amp;9b0&amp;callback=_xdc_._spfdkt&amp;token=60213"></script><script type="text/javascript" charset="UTF-8" src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i15!2i17082!3i11778!1m4!1m3!1i15!2i17082!3i11779!1m4!1m3!1i15!2i17083!3i11778!1m4!1m3!1i15!2i17083!3i11779!1m4!1m3!1i15!2i17084!3i11778!1m4!1m3!1i15!2i17084!3i11779!2m3!1e0!2sm!3i271000000!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e3&amp;callback=_xdc_._vqiwu6&amp;token=7639"></script><script type="text/javascript" charset="UTF-8" src="http://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttp%3A%2F%2Fazmind.com%2Fwrapbootstrap%2Fmira-coming-soon%2F&amp;5e1&amp;callback=_xdc_._lc2odr&amp;token=68616"></script><script type="text/javascript" charset="UTF-8" src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i15!2i17082!3i11778!1m4!1m3!1i15!2i17082!3i11779!1m4!1m3!1i15!2i17083!3i11778!1m4!1m3!1i15!2i17083!3i11779!1m4!1m3!1i15!2i17084!3i11778!1m4!1m3!1i15!2i17084!3i11779!2m3!1e0!2sm!3i271333931!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e3&amp;callback=_xdc_._vw9mjw&amp;token=588"></script><script type="text/javascript" charset="UTF-8" src="http://maps.googleapis.com/maps/api/js/QuotaService.RecordEvent?1shttp%3A%2F%2Fazmind.com%2Fwrapbootstrap%2Fmira-coming-soon%2F&amp;4e1&amp;5e0&amp;6u1&amp;7sqhblyr&amp;callback=_xdc_._gsfldb&amp;token=30192"></script></head>
+  -->
+<body>
 
-        <ul>
-          <li><a href="https://github.com/andre-gabriel/tejus/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/andre-gabriel/tejus/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/andre-gabriel/tejus">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/andre-gabriel">andre-gabriel</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+  <!-- Coming Soon -->
+  <div class="coming-soon">
+    <div class="inner-bg">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="logo">
+              <h1><a href="http://www.tejus.pt">Tejus - Eventos & Turismo</a></h1>
+            </div>
+            <h2>Brevemente disponível</h2>
+            <p>
+              Estamos a desenvolver um site adequado à excelência que você merece!
+            </p>
+            <div class="timer">
+              <div class="days-wrapper">
+                <span class="days"></span> <br>days
+              </div>
+              <div class="hours-wrapper">
+                <span class="hours"></span> <br>hours
+              </div>
+              <div class="minutes-wrapper">
+                <span class="minutes"></span> <br>minutes
+              </div>
+              <div class="seconds-wrapper">
+                <span class="seconds"></span> <br>seconds
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+  </div>
 
-    <script src="javascripts/scale.fix.js"></script>
-        <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      try {
-        var pageTracker = _gat._getTracker("UA-53427840-1");
-      pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
-  </body>
-</html>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="span7 footer-copyright">
+          <p>© 2014 Tejus - Eventos & Turismo<br>Todos os direitos reservados.</p>
+        </div>
+        <div class="span5 footer-social">
+          <!--
+          <a class="ultm ultm-facebook ultm-48 ultm-square ultm-gray-to-color" href="https://www.facebook.com/www.tejus.pt"></a>
+          <a class="ultm ultm-twitter ultm-48 ultm-square ultm-gray-to-color" href=""></a>
+          <a class="ultm ultm-google-plus-1 ultm-48 ultm-square ultm-gray-to-color" href=""></a>
+          <a class="ultm ultm-dribbble ultm-48 ultm-square ultm-gray-to-color" href=""></a>
+          <a class="ultm ultm-pinterest ultm-48 ultm-square ultm-gray-to-color" href=""></a>
+          -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Javascript -->
+  <script src="assets/js/jquery-1.10.2.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.backstretch.min.js"></script>
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-53427840-1");
+    pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+</body></html>
