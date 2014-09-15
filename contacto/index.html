@@ -125,7 +125,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Contacte-nos! <br>
-                    <small>Nós respondemos com brevidade!</small>
+                    <small>Respondemos com brevidade!</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="../">Tejus</a>
@@ -142,43 +142,49 @@
             <div class="col-md-8">
                 <!-- Contact Form -->
                 <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-                <h3>Deixe-nos a sua mensagem</h3>
+                <h3>Deixe-nos a sua mensagem:</h3>
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Nome:</label>
+                            <label>* Nome:</label>
                             <input type="text" class="form-control" id="name" required data-validation-required-message="Introuduza o seu Nome">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Contato telefónico:</label>
+                            <label>Entidade:</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Introduza a Empresa/Organização">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>* Contato telefónico:</label>
                             <input type="tel" class="form-control" id="phone" required data-validation-required-message="Introduza o seu número de telefone ou telemóvel">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Email:</label>
+                            <label>* Email:</label>
                             <input type="email" class="form-control" id="email" required data-validation-required-message="Introduza o seu email">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Mensagem:</label>
+                            <label>* Mensagem:</label>
                             <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Introduza a sua mensagem" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
+                    <p>* Campo de preenchimento obrigatório</p>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
-                <h3>Onde Estamos?</h3> <br> Estamos sediados na Capital do Cavalo - Golegã, desenvolvemos eventos e atividades em todo o país, com maior incidência: Golegã; Tomar; Santarém; Torres Novas; Lisboa; Cascais; Sintra; Estoril,etc. <br>  <br> Onde você estiver... nós estamos! <br>
-                <p> <br>
-                    Rua de Santo António n.º4 <br>2150-090 Pombalinho <br> Golegã - Portugal<br>
+                <h3>Contactos</h3> <br> Contacte-nos diretamente para:<br>
+                <p> 
                 </p>
                 <p><i class="fa fa-phone"></i> 
                     <abbr title="Telemóvel">Tm</abbr>: (+351) 91 282 23 28</p>
@@ -187,8 +193,6 @@
                 <p><i class="fa fa-envelope-o"></i> 
                     <abbr title="Email">E</abbr>: <a id="contact-email" href="#">geral(at)tejus.pt</a>
                 </p>
-                <p><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">H</abbr>: Todos os dias: 9:00 às 19:00</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
                         <a href="http://facebook.com/www.tejus.pt"><i class="fa fa-facebook-square fa-2x"></i></a>
@@ -199,7 +203,16 @@
                     <li>
                         <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
                     </li>
-                </ul>
+                    <br>
+                    </br>
+                    <strong>Tejus - Eventos &amp; turismo</strong>
+                    <br>
+                    Rua Santo António n.º4
+                    <br>
+                    2150-090 Pombalinho
+                    <br>
+                    Golegã - Portugal
+            </div>
             </div>
         </div>
 
