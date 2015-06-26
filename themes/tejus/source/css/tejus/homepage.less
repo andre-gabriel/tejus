@@ -1,0 +1,44 @@
+
+.panel-heading {
+  padding: 15px 15px 0 15px;
+
+  img {
+    .border-top-radius(3px);
+  }
+}
+
+@activity-color: #31708f;
+@activity-text: #fff;
+@activity-bg: #31708f;
+@activity-border: darken(spin(@activity-bg, -10), 7%);
+
+@activity-btn-info-color: #fff;
+@activity-btn-info-bg: @activity-color;
+@activity-btn-info-border: darken(@activity-btn-info-bg, 5%);
+
+.panel-activities {
+  .panel-variant(@activity-border; @activity-text; @activity-bg; @panel-info-border);
+}
+
+.panel-body {
+  min-height: 220px;
+}
+
+.panel-footer {
+  background: transparent;
+  border: none;
+}
+
+/** Newsletter */
+
+.newsletter {
+  background-image: url('../backgrounds/newsletter.png');
+  background-color: lighten(@brand-primary, 6%);
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 50px;
+
+  a {
+    color: #fff;
+  }
+}

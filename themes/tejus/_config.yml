@@ -1,0 +1,25 @@
+
+twitter_id:
+facebook_id:
+linkedin_id:
+github_id:
+
+#addthis:
+#  enable: true
+#  pubid:
+#  twitter: true
+#  facebook: true
+
+google_analytics: UA-53427840-1
+rss:
+
+disqus_shortname:
+
+less:
+  paths:
+    - source/css/theme.less
+  sourcemaps:
+    comment: true
+    inline: true
+    sourceRoute: ''
+    basePath: .

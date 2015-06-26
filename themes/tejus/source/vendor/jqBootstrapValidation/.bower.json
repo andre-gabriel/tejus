@@ -1,0 +1,19 @@
+{
+  "name": "jqBootstrapValidation",
+  "main": [
+    "./dist/jqBootstrapValidation-2.0.0.min.js"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "homepage": "https://github.com/magicgod/jqBootstrapValidation",
+  "_release": "1864a0baa1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1864a0baa1187a7827f339d0888e3038dbe19f2f"
+  },
+  "_source": "https://github.com/magicgod/jqBootstrapValidation.git",
+  "_target": "master",
+  "_originalSource": "https://github.com/magicgod/jqBootstrapValidation.git"
+}
