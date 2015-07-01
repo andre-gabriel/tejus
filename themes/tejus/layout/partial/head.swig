@@ -10,7 +10,7 @@
     {%for author in config.authors %}<meta name="author" content="{{ author }}">{% endfor %}
 
     <!-- Canonical links -->
-    <link rel="canonical" href="{{ url }}">
+    <link rel="canonical" href="{{ page_url(url) }}">
 
     <!-- build:css build/css/theme.css -->
     {{ css('css/theme', 'vendor/fancybox/jquery.fancybox.css') }}
