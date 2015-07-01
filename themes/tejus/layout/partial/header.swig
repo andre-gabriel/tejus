@@ -9,13 +9,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ url_for() }}">Tejus</a>
+            <a class="navbar-brand" href="{{ page_url() }}">Tejus</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
             {% for menu in site.data.menu %}
-                <li><a href="{{ url_for(menu) }}">{{ loop.key }}</a></li>
+                <li{%if is_current(menu) %} class="active" {% endif %}><a href="{{ page_url(menu) }}">{{ loop.key }}</a></li>
             {% endfor %}
             </ul>
         </div>
