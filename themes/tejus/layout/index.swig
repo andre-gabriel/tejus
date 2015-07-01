@@ -18,7 +18,7 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="panel panel-{{ item.highlight.class}}">
                         <div class="panel-heading">
-                            <a href="{{ url_for(item.path) }}">{{ image_tag(item.highlight.img, {class: 'img-responsive', title: item.title}) }}</a>
+                            <a href="{{ page_url(item.path) }}">{{ image_tag(item.highlight.img, {class: 'img-responsive', title: item.title}) }}</a>
                             <h4>{{ item.title }}</h4>
                         </div>
                         <div class="panel-body">
@@ -37,9 +37,9 @@
                 <div class="col-md-12 col-sm-6">
                     <div class="promotions panel panel-warning">
                         <div class="panel-body">
-                            <a href="{% if promoted.hasDetail %}{{ url_for(promoted.path) }}{% else %}{{ url_for('contacto') }}{% endif %}">{{ image_tag(promoted.promo.img, {class: 'img-responsive', title: promoted.title}) }}</a>
+                            <a href="{% if promoted.hasDetail %}{{ page_url(promoted.path) }}{% else %}{{ page_url('contacto/') }}{% endif %}">{{ image_tag(promoted.promo.img, {class: 'img-responsive', title: promoted.title}) }}</a>
                         </div>
-                        <span class="ribbon"><a href="{{ url_for('contacto') }}">Pedir Orçamento</a></span>
+                        <span class="ribbon"><a href="{{ page_url('contacto/') }}">Pedir Orçamento</a></span>
                     </div>
                 </div>
             </div>

@@ -22,8 +22,8 @@
 
         {% for item in page.moreInfo.imgs %}
         <div class="col-sm-3 col-xs-6">
-            <a class="fancybox" href="{{ url_for(item.path) }}" rel="gallery-{{ page._id }}">
-                {{ image_tag(item.path, {class: 'img-responsive', title: item.title}) }}
+            <a class="fancybox" href="{{ page_url(item.path) }}" rel="gallery-{{ page._id }}">
+                {{ image_tag(item.path, {class: 'img-responsive', title: item.title, role: 'presentation'}) }}
             </a>
         </div>
         {% endfor %}

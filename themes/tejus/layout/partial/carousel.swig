@@ -13,20 +13,16 @@
         {% for item in items %}
         <div class="item{%if loop.first %} active{% endif %}">
             {% if expanded %}
-            <div class="fill" style="background-image:url('{{ url_for(item.path) }}');"></div>
+            <div class="fill" style="background-image:url('{{ page_url(item.path) }}');"></div>
             {% else %}
-            {{ image_tag(item.path, {class: 'img-responsive', title: item.title}) }}
+            {{ image_tag(item.path, {class: 'img-responsive', title: item.title, role: 'presentation'}) }}
             {% endif %}
         </div>
         {% endfor %}
     </div>
 
     <!-- Controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="icon-next"></span>
-    </a>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev" title="Anterior"><span class="icon-prev"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next" title="Seguinte"><span class="icon-next"></span></a>
 </header>
 {% endif %}
