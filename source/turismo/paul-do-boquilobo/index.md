@@ -1,8 +1,8 @@
 layout: detail
 type: turism
 active: true
-title: Reserva Natural do Paul do Boquilobo
-thumb: turismo/turismo-equestre/equestre.jpg
+title: Paul do Boquilobo
+thumb: turismo/paul-do-boquilobo/detail1.jpg
 teaser: "A Reserva Natural do Paul do Boquilobo (RNPB) acompanha um troço do rio Almonda,
          que nasce na Serra de Aire e desagua na margem direita do Tejo, constituindo
          uma zona húmida com características de Paul, inundada sazonalmente pelo
