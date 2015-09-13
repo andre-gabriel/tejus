@@ -16,6 +16,7 @@ rss:
 disqus_shortname:
 
 less:
+  compress: true
   paths:
     - source/css/theme.less
   sourcemaps:
