@@ -39,7 +39,12 @@
                         <div class="panel-body">
                             <a href="{% if promoted.hasDetail %}{{ page_url(promoted.path) }}{% else %}{{ page_url('contacto/') }}{% endif %}">{{ image_tag(promoted.promo.img, {class: 'img-responsive', title: promoted.title}) }}</a>
                         </div>
-                        <span class="ribbon"><a href="{{ page_url('contacto/') }}">Pedir Orçamento</a></span>
+                        {% if promoted.promo.ribbon %}
+                        <span class="ribbon"><a href="{{ page_url('contacto/') }}">{{ promoted.promo.ribbon }}</a></span>
+                        {% endif %}
+                        {% if promoted.promo.title %}
+                        <h3>{{ promoted.promo.title }}</h3>
+                        {% endif %}
                     </div>
                 </div>
             </div>

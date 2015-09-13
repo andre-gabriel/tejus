@@ -8,7 +8,7 @@ teaser: "Um batismo a cavalo, um passeio a cavalo, um passeio em carro de cavalo
         Uma agradável atividade para fazer e recordar mais tarde."
 hasDetail: false
 
-promote: true
+promote: false
 promo:
   img: turismo/turismo-equestre/promoequestre.jpg
 ---
