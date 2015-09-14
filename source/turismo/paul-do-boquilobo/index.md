@@ -31,13 +31,9 @@ promo:
 
 ---
 
-A Reserva Natural do Paul do Boquilobo (RNPB) acompanha um troço do rio Almonda,
-que nasce na Serra de Aire e desagua na margem direita do Tejo, constituindo
-uma zona húmida com características de Paul, inundada sazonalmente pelo
-transbordo do Almonda e do Tejo.
+A Reserva Natural do Paul do Boquilobo (RNPB) acompanha um troço do rio Almonda, que nasce na Serra de Aire e desagua na margem direita do Tejo, constituindo uma zona húmida com características de Paul, inundada sazonalmente pelo transbordo do Almonda e do Tejo.
 
-O Passeio Pedestre à Reserva Natural do paul do boquilobo, realiza-se
-diariamente (excepto em dias de caça), e carece de inscrição prévia. 
+O Passeio Pedestre à Reserva Natural do Paul do Boquilobo, realiza-se diariamente (excepto em dias de caça), e carece de inscrição prévia. 
 
 ### Passeio Pedestre
 
@@ -47,7 +43,7 @@ Tejus - Eventos & Turismo (Golegã) ou Centro de Interpretação da Reserva
 **Duração:** uma manhã/tarde
 **Dificuldade:** Fácil (excepto em período de cheias)
 **Preço:** 10€/Pax (Iva inc.)
-**Inclui:** Visita Guiada à Reserva Natural Do Paul Do Boquilobo, Lanche tradicional com produtos regionais, reportagem fotográfica, seguro de acidentes pessoais e responsabilidade civil.
+**Inclui:** Visita Guiada à Reserva Natural do Paul do Boquilobo, Lanche tradicional com produtos regionais, reportagem fotográfica, seguro de acidentes pessoais e responsabilidade civil.
 **Informações/inscrições:** [contacte-nos](/contacto)
 **Nota:** Inscrições a partir de 6 pessoas ou correspondente e limitadas a 25 Participantes.
 
@@ -59,19 +55,6 @@ Tejus - Eventos & Turismo (Golegã) ou Centro de Interpretação da Reserva
 
 ### Classificação
 
-O Paul do Boquilobo é o maior ecossistema aquático representativo de zonas
-húmidas interiores, duma elevada biodiversidade a nível da fauna em geral, as
-aves constituem o seu principal valor, razão da sua classificação como Reserva
-Natural pelo Decreto-Lei nº 198/80, de 24 de junho. Esta Área Protegida alberga
-uma importante colónia de garças, de colhereiros e outras espécies vindas em
-parte do continente africano. Recebe significativas populações de anatídeos do
-norte da Europa. É ponto importante nas migrações outonais de passeriformes e
-outras aves e nela ocorrem ou nidificam algumas espécies raras em Portugal e na 
-Europa.
-O reconhecimento internacional desta Área Protegida é confirmado pela sua
-classificação, em 1981, como Reserva da Biosfera, sendo a primeira Área
-Protegida portuguesa a que foi concedida esta importante distinção. Em 1996,
-foi também considerada uma Zona Húmida de Importância Internacional ao abrigo
-da Convenção de Ramsar. Desde 1999, devido à sua importância para a avifauna,
-está também classificada como uma Zona de Proteção Especial de acordo com a
-Diretiva n.º 2009/147/CE.
+O Paul do Boquilobo é o maior ecossistema aquático representativo de zonas húmidas interiores, duma elevada biodiversidade a nível da fauna em geral, as aves constituem o seu principal valor, razão da sua classificação como Reserva Natural pelo Decreto-Lei nº 198/80, de 24 de junho. Esta Área Protegida alberga uma importante colónia de garças, de colhereiros e outras espécies vindas em parte do continente africano. Recebe significativas populações de anatídeos do norte da Europa. É ponto importante nas migrações outonais de passeriformes e outras aves e nela ocorrem ou nidificam algumas espécies raras em Portugal e na Europa.
+
+O reconhecimento internacional desta Área Protegida é confirmado pela sua classificação, em 1981, como Reserva da Biosfera, sendo a primeira Área Protegida portuguesa a que foi concedida esta importante distinção. Em 1996, foi também considerada uma Zona Húmida de Importância Internacional ao abrigo da Convenção de Ramsar. Desde 1999, devido à sua importância para a avifauna, está também classificada como uma Zona de Proteção Especial de acordo com a Diretiva n.º 2009/147/CE.
