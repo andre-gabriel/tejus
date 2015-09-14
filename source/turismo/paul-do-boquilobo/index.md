@@ -15,6 +15,10 @@ detail:
     - path: turismo/paul-do-boquilobo/detail2.jpg
     - path: turismo/paul-do-boquilobo/detail3.jpg
 
+extra:
+  title: Classificação
+  content: "O Paul do Boquilobo é o maior ecossistema aquático representativo de zonas húmidas interiores, duma elevada biodiversidade a nível da fauna em geral, as aves constituem o seu principal valor, razão da sua classificação como Reserva Natural pelo Decreto-Lei nº 198/80, de 24 de junho. Esta Área Protegida alberga uma importante colónia de garças, de colhereiros e outras espécies vindas em parte do continente africano. Recebe significativas populações de anatídeos do norte da Europa. É ponto importante nas migrações outonais de passeriformes e outras aves e nela ocorrem ou nidificam algumas espécies raras em Portugal e na Europa.<br>O reconhecimento internacional desta Área Protegida é confirmado pela sua classificação, em 1981, como Reserva da Biosfera, sendo a primeira Área Protegida portuguesa a que foi concedida esta importante distinção. Em 1996, foi também considerada uma Zona Húmida de Importância Internacional ao abrigo da Convenção de Ramsar. Desde 1999, devido à sua importância para a avifauna, está também classificada como uma Zona de Proteção Especial de acordo com a Diretiva n.º 2009/147/CE."
+
 moreInfo:
   title: Mais fotos...
   imgs:
@@ -37,8 +41,7 @@ O Passeio Pedestre à Reserva Natural do Paul do Boquilobo, realiza-se diariamen
 
 ### Passeio Pedestre
 
-**Ponto de partida:**
-Tejus - Eventos & Turismo (Golegã) ou Centro de Interpretação da Reserva
+**Ponto de partida:** Tejus - Eventos & Turismo (Golegã) ou Centro de Interpretação da Reserva
 **Extensão:** 3 ou 6 Km
 **Duração:** uma manhã/tarde
 **Dificuldade:** Fácil (excepto em período de cheias)
@@ -51,10 +54,4 @@ Tejus - Eventos & Turismo (Golegã) ou Centro de Interpretação da Reserva
 - Mel da Reserva Natural do Paul do Boquilobo
 - Artesanato da Reserva da Biosfera
 - Merchandising do Paul do Boquilobo
- 
 
-### Classificação
-
-O Paul do Boquilobo é o maior ecossistema aquático representativo de zonas húmidas interiores, duma elevada biodiversidade a nível da fauna em geral, as aves constituem o seu principal valor, razão da sua classificação como Reserva Natural pelo Decreto-Lei nº 198/80, de 24 de junho. Esta Área Protegida alberga uma importante colónia de garças, de colhereiros e outras espécies vindas em parte do continente africano. Recebe significativas populações de anatídeos do norte da Europa. É ponto importante nas migrações outonais de passeriformes e outras aves e nela ocorrem ou nidificam algumas espécies raras em Portugal e na Europa.
-
-O reconhecimento internacional desta Área Protegida é confirmado pela sua classificação, em 1981, como Reserva da Biosfera, sendo a primeira Área Protegida portuguesa a que foi concedida esta importante distinção. Em 1996, foi também considerada uma Zona Húmida de Importância Internacional ao abrigo da Convenção de Ramsar. Desde 1999, devido à sua importância para a avifauna, está também classificada como uma Zona de Proteção Especial de acordo com a Diretiva n.º 2009/147/CE.
