@@ -1,8 +1,11 @@
-- title: A tua festa
-  path: banners/bannerfesta.jpg
+- title: ''
+  path: 'banners/banner-1.jpg'
 
-- title: Turismo Equestre
-  path: banners/bannerequestre.jpg
+- title: ''
+  path: 'banners/banner-2.jpg'
 
-- title: Paintball
-  path: banners/bannerpaintball.jpg
+- title: ''
+  path: 'banners/banner-3.jpg'
+
+- title: ''
+  path: 'banners/banner-4.jpg'
