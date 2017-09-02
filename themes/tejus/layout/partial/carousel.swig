@@ -17,6 +17,8 @@
             {% else %}
             {{ image_tag(item.path, {class: 'img-responsive', title: item.title, role: 'presentation'}) }}
             {% endif %}
+            <h2>{{item.title}}</h2>
+            <h3>{{item.teaser}}</h3>
         </div>
         {% endfor %}
     </div>
