@@ -9104,41 +9104,6 @@ header.carousel .fill {
   background-position: center;
   background-size: cover;
 }
-header.carousel h2,
-header.carousel h3 {
-  position: relative;
-  bottom: 40%;
-  background-color: rgba(255, 255, 255, 0.75);
-  text-align: right;
-  width: 33%;
-  text-transform: uppercase;
-}
-@media screen and (max-width: 1000px) {
-  header.carousel h2,
-  header.carousel h3 {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 650px) {
-  header.carousel h2,
-  header.carousel h3 {
-    width: 75%;
-  }
-}
-@media screen and (max-width: 500px) {
-  header.carousel h2,
-  header.carousel h3 {
-    width: 100%;
-  }
-}
-header.carousel h2 {
-  margin: 0;
-  padding: 10px 15px;
-}
-header.carousel h3 {
-  margin: 5px 0 0;
-  padding: 5px 15px;
-}
 /* 404 Page Styles */
 .error-404 {
   font-size: 100px;
@@ -9189,8 +9154,43 @@ footer {
   border: 0;
   margin-left: 0;
   background: url("../logo.png") center no-repeat;
-  width: 83px;
-  background-size: 68px 20px;
+  width: 115px;
+  background-size: 100px 28px;
+}
+header.carousel h2,
+header.carousel h3 {
+  position: relative;
+  bottom: 40%;
+  background-color: rgba(255, 255, 255, 0.75);
+  text-align: right;
+  width: 33%;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1000px) {
+  header.carousel h2,
+  header.carousel h3 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  header.carousel h2,
+  header.carousel h3 {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 500px) {
+  header.carousel h2,
+  header.carousel h3 {
+    width: 100%;
+  }
+}
+header.carousel h2 {
+  margin: 0;
+  padding: 10px 15px;
+}
+header.carousel h3 {
+  margin: 5px 0 0;
+  padding: 5px 15px;
 }
 .panel-heading {
   padding: 15px 15px 0 15px;
