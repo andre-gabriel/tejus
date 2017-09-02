@@ -1,0 +1,1 @@
+{"name":"jqBootstrapValidation","version":"2.0.0","main":["./dist/jqBootstrapValidation-2.0.0.min.js"],"dependencies":{"jquery":"*"}}

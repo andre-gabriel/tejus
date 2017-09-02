@@ -1,0 +1,19 @@
+<h1 id="Contributing"><a href="#Contributing" class="headerlink" title="Contributing"></a>Contributing</h1><h2 id="Important-notes"><a href="#Important-notes" class="headerlink" title="Important notes"></a>Important notes</h2><p>Please don’t edit files in the <code>dist</code> subdirectory as they are generated via grunt. You’ll find source code in the <code>src</code> subdirectory!</p>
+<h2 id="Modifying-the-code"><a href="#Modifying-the-code" class="headerlink" title="Modifying the code"></a>Modifying the code</h2><p>First, ensure that you have the latest <a href="http://nodejs.org/">Node.js</a> and <a href="http://npmjs.org/">npm</a> installed.</p>
+<p>Test that grunt is installed globally by running <code>grunt --version</code> at the command-line.  If grunt isn’t installed globally, run <code>npm install -g grunt</code> to install the latest version. <em>You may need to run <code>sudo npm install -g grunt</code>.</em></p>
+<p><em>Note that in Windows, you may have to run <code>grunt.cmd</code> instead of <code>grunt</code>.</em></p>
+<ol>
+<li>Fork and clone the repo.</li>
+<li>Run <code>npm install</code> to install all dependencies (including grunt).</li>
+<li>Run <code>grunt</code> to grunt this project.</li>
+</ol>
+<p>Assuming that you don’t see any red, you’re ready to go. Just be sure to run <code>grunt</code> after making any changes, to ensure that nothing is broken.</p>
+<h2 id="Submitting-pull-requests"><a href="#Submitting-pull-requests" class="headerlink" title="Submitting pull requests"></a>Submitting pull requests</h2><ol>
+<li>Create a new branch, please don’t work in your <code>master</code> branch directly.</li>
+<li>Add failing tests for the change you want to make. Run <code>grunt</code> to see the tests fail.</li>
+<li>Fix stuff.</li>
+<li>Run <code>grunt</code> to see if the tests pass. Repeat steps 2-4 until done.</li>
+<li>Open <code>test/*.html</code> unit test file(s) in actual browser to ensure tests pass everywhere.</li>
+<li>Update the documentation to reflect any changes.</li>
+<li>Push to your fork and submit a pull request.</li>
+</ol>

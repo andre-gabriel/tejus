@@ -1,0 +1,75 @@
+<h1 id="ajaxChimp"><a href="#ajaxChimp" class="headerlink" title="ajaxChimp"></a>ajaxChimp</h1><p>AjaxChimp is a jQuery plugin that lets you ajaxify your mailchimp form.</p>
+<p>Use this if you hate the jarring transition to the mailchimp website upon submitting an email address to mailchimp.</p>
+<p><strong>Note</strong>: This relies on an undocumented feature at mailchimp that uses JSONP to allow cross-domain ajax to work. You have been warned. (It has however, been around for at least 3 years that I know of, and probably more.)</p>
+<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><p>Just add the script to your webpage (along with jQuery ofcourse). Get it here:</p>
+<pre><code>curl -O https://raw.github.com/scdoshi/jquery-ajaxchimp/master/jquery.ajaxchimp.js
+</code></pre><h4 id="bower"><a href="#bower" class="headerlink" title="bower"></a>bower</h4><pre><code>bower install ajaxchimp
+</code></pre><h2 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h2><ul>
+<li>jQuery</li>
+</ul>
+<p><strong>Note</strong>: Developed with 1.9.1, but it should work with earlier versions. If it does or does not work with a particular version, please open an issue on github.</p>
+<h2 id="Use"><a href="#Use" class="headerlink" title="Use"></a>Use</h2><h4 id="On-the-mailchimp-form-element"><a href="#On-the-mailchimp-form-element" class="headerlink" title="On the mailchimp form element"></a>On the mailchimp form element</h4><pre><code class="js">$(<span class="string">'form-selector'</span>).ajaxChimp();
+</code></pre>
+<h2 id="Label"><a href="#Label" class="headerlink" title="Label"></a>Label</h2><p>If a label element is included in the form for the email input, then the success or error message will be displayed in it. A <code>valid</code> or <code>error</code> class will also be added accordingly.</p>
+<h4 id="Example-Form"><a href="#Example-Form" class="headerlink" title="Example Form"></a>Example Form</h4><pre><code class="html"><span class="tag">&lt;<span class="name">form</span> <span class="attr">id</span>=<span class="string">"mc-form"</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"mc-email"</span> <span class="attr">type</span>=<span class="string">"email"</span> <span class="attr">placeholder</span>=<span class="string">"email"</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"mc-email"</span>&gt;</span><span class="tag">&lt;/<span class="name">label</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span>Submit<span class="tag">&lt;/<span class="name">button</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">form</span>&gt;</span>
+</code></pre>
+<pre><code class="js">$(<span class="string">'#mc-form'</span>).ajaxChimp({
+    <span class="attr">url</span>: <span class="string">'http://blahblah.us1.list-manage.com/subscribe/post?u=5afsdhfuhdsiufdba6f8802&amp;id=4djhfdsh9'</span>
+});
+</code></pre>
+<h2 id="Options"><a href="#Options" class="headerlink" title="Options"></a>Options</h2><h3 id="Callback"><a href="#Callback" class="headerlink" title="Callback"></a>Callback</h3><p>Optionally, you can specify a callback with either method to run after the<br>ajax query to mailchimp succeeds or fails.</p>
+<pre><code class="js">$(<span class="string">'form-selector'</span>).ajaxChimp({
+    <span class="attr">callback</span>: callbackfunction
+});
+</code></pre>
+<p>The JSONP response from mailchimp will be passed to the callback function</p>
+<pre><code class="js"><span class="function"><span class="keyword">function</span> <span class="title">callbackFunction</span> (<span class="params">resp</span>) </span>{
+    <span class="keyword">if</span> (resp.result === <span class="string">'success'</span>) {
+        <span class="comment">// Do stuff</span>
+    }
+}
+</code></pre>
+<h3 id="URL"><a href="#URL" class="headerlink" title="URL"></a>URL</h3><p>You can specify the mailchimp URL to post to (or override the url provided on the form element)</p>
+<pre><code class="js">$(<span class="string">'form-selector'</span>).ajaxChimp({
+    <span class="attr">url</span>: <span class="string">'mailchimp-post-url'</span>
+});
+</code></pre>
+<p>The mailchimp post url will look like this:</p>
+<pre><code>http://blahblah.us1.list-manage.com/subscribe/post?u=5afsdhfuhdsiufdba6f8802&amp;id=4djhfdsh99f
+</code></pre><h3 id="Language-Support"><a href="#Language-Support" class="headerlink" title="Language Support"></a>Language Support</h3><p>For success and error messages in different languages:</p>
+<ul>
+<li>Specify the language as an option.</li>
+<li>Include <code>jquery.ajaxchimp.langs.js</code> in the html file</li>
+</ul>
+<pre><code class="js">$(<span class="string">'form-selector'</span>).ajaxChimp({
+    <span class="attr">language</span>: <span class="string">'es'</span>
+});
+</code></pre>
+<p><strong>Note</strong>: If the language you want is not supported out of the box, or the translations are wrong, open a pull request with the required language and I will add it in.</p>
+<p>You can also add custom translations just for your website:</p>
+<pre><code class="js">$.ajaxChimp.translations.es = {
+    <span class="string">'submit'</span>: <span class="string">'Grabación en curso...'</span>,
+    <span class="number">0</span>: <span class="string">'Te hemos enviado un email de confirmación'</span>,
+    <span class="number">1</span>: <span class="string">'Por favor, introduzca un valor'</span>,
+    <span class="number">2</span>: <span class="string">'Una dirección de correo electrónico debe contener una sola @'</span>,
+    <span class="number">3</span>: <span class="string">'La parte de dominio de la dirección de correo electrónico no es válida (la parte después de la @:)'</span>,
+    <span class="number">4</span>: <span class="string">'La parte de usuario de la dirección de correo electrónico no es válida (la parte antes de la @:)'</span>,
+    <span class="number">5</span>: <span class="string">'Esta dirección de correo electrónico se ve falso o no válido. Por favor, introduce una dirección de correo electrónico real'</span>
+}
+</code></pre>
+<p>The mapping to english for mailchimp responses and the submit message are as follows:</p>
+<pre><code class="js"><span class="comment">// Submit Message</span>
+<span class="comment">// 'submit': 'Submitting...'</span>
+
+<span class="comment">// Mailchimp Responses</span>
+<span class="comment">// 0: 'We have sent you a confirmation email'</span>
+<span class="comment">// 1: 'Please enter a value'</span>
+<span class="comment">// 2: 'An email address must contain a single @'</span>
+<span class="comment">// 3: 'The domain portion of the email address is invalid (the portion after the @: )'</span>
+<span class="comment">// 4: 'The username portion of the email address is invalid (the portion before the @: )'</span>
+<span class="comment">// 5: 'This email address looks fake or invalid. Please enter a real email address'</span>
+</code></pre>
