@@ -9157,6 +9157,15 @@ footer {
   width: 115px;
   background-size: 100px 29px;
 }
+.footer__links {
+  text-align: right;
+}
+.footer__links li {
+  vertical-align: top;
+}
+.footer__links li:last-child {
+  padding-right: 0;
+}
 header.carousel h2,
 header.carousel h3 {
   position: relative;

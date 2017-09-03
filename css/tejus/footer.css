@@ -1,0 +1,9 @@
+.footer__links {
+  text-align: right;
+}
+.footer__links li {
+  vertical-align: top;
+}
+.footer__links li:last-child {
+  padding-right: 0;
+}
