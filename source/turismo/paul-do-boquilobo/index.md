@@ -37,7 +37,7 @@ promo:
 
 A Reserva Natural do Paul do Boquilobo (RNPB) acompanha um troço do rio Almonda, que nasce na Serra de Aire e desagua na margem direita do Tejo, constituindo uma zona húmida com características de Paul, inundada sazonalmente pelo transbordo do Almonda e do Tejo.
 
-O Passeio Pedestre à Reserva Natural do Paul do Boquilobo, realiza-se diariamente (excepto em dias de caça), e carece de inscrição prévia. 
+O Passeio Pedestre à Reserva Natural do Paul do Boquilobo, **realiza-se diariamente** (excepto em dias de caça), e carece de inscrição prévia.
 
 ### Passeio Pedestre
 
@@ -45,13 +45,12 @@ O Passeio Pedestre à Reserva Natural do Paul do Boquilobo, realiza-se diariamen
 **Extensão:** 3 ou 6 Km
 **Duração:** uma manhã/tarde
 **Dificuldade:** Fácil (excepto em período de cheias)
-**Preço:** 10€/Pax (Iva inc.)
+**Preço:** 15€/Pax (Iva inc.)
 **Inclui:** Visita Guiada à Reserva Natural do Paul do Boquilobo, Lanche tradicional com produtos regionais, reportagem fotográfica, seguro de acidentes pessoais e responsabilidade civil.
 **Informações/inscrições:** [contacte-nos](/contacto)
-**Nota:** Inscrições a partir de 6 pessoas ou correspondente e limitadas a 25 Participantes.
+**Nota:** Inscrições a partir de 4 pessoas (ou correspondente a 4) e limitadas a 25 Participantes.
 
 #### Os Produtos do Paul do Boquilobo:
 - Mel da Reserva Natural do Paul do Boquilobo
 - Artesanato da Reserva da Biosfera
 - Merchandising do Paul do Boquilobo
-
