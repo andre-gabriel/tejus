@@ -2,7 +2,7 @@
     <div class="container text-center">
         <div class="row">
             <h2>Quer saber de mais ofertas e experiências inesquecíveis?</h2>
-            <h4>Subscreva à nossa newsletter para receber novidades a preços incríveis!</h4>
+            <h4>Subscreva à nossa newsletter para receber todas as novidades!</h4>
             <form id="newsletter-form" class="form-inline" role="form" data-target="#newsletter-form .response" action="//tejus.us9.list-manage.com/subscribe/post" method="post">
                 <input type="hidden" name="u" value="b52a80c898a238766b8bf1e1b">
                 <input type="hidden" name="id" value="091d1819d6">
