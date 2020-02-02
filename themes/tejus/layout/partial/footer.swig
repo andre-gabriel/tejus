@@ -5,6 +5,7 @@
         <div class="row">
             <div class="col-md-5">
                 <p>&copy; {{ config.copyright }}</p>
+                <p>RNAVT 8472</p>
             </div>
             <div class="col-md-7">
                 <ul class="list-unstyled list-inline footer__links">
